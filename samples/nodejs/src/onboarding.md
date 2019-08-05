@@ -26,7 +26,7 @@ The sole purpose of the onboarding process is to generate generate pairwise dids
 
 -Encrypts this connection response message by anonymous-encryption scheme (cryptoAnonCrypt) using the pairwise DID of the sender
 
->> **Please note this pairwise DID of the sender could be retireved from the ledger (if stored in ledger by the sender) or could be retreived by the connection request sent by sender (if sender attached it in the connection request)
+>**Please note this pairwise DID of the sender could be retireved from the ledger (if stored in ledger by the sender) or could be retreived by the connection request sent by sender (if sender attached it in the connection request)
 
 ### At Onboarder's end
 - Once the connection response sent by new user is recieved by the the onboarder, it decrypts the it using it's wallet and pairwise did (corresponding to the new user)
@@ -35,14 +35,14 @@ The sole purpose of the onboarding process is to generate generate pairwise dids
 
 - Once authenticated, pairwise did and verkey of the new user is stored in the ledger by the onboarder.
 
->> **This step might not be neccessary since in reality we are not supposed to store pairwise dids and keys into the ledger.
+>**This step might not be neccessary since in reality we are not supposed to store pairwise dids and keys into the ledger.
  
 ## Notes:
 I have emphasised on pairwise DIDs and verkeys not to be stored on public ledger to support both privacy by Design architecture as well as its ability to scale.
 
 These are not my views but what is being documented by evernym in one of their documents.
 
->> A DID added directly to the Sovrin public ledger is called a public DID, whereas a pairwise pseudonymous DID shared and stored privately “off-ledger” between the agents for two identity holders is called a private DID. The ability for Sovrin infrastructure to support both is fundamental to both its Privacy by Design architecture as well as its ability to scale.
+>A DID added directly to the Sovrin public ledger is called a public DID, whereas a pairwise pseudonymous DID shared and stored privately “off-ledger” between the agents for two identity holders is called a private DID. The ability for Sovrin infrastructure to support both is fundamental to both its Privacy by Design architecture as well as its ability to scale.
 
 Document link: https://www.evernym.com/wp-content/uploads/2017/07/What-Goes-On-The-Ledger.pdf
 
