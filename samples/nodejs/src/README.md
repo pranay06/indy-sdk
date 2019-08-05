@@ -7,3 +7,5 @@ To understand
 [Onboarding Walkthrough](https://github.com/pranay06/indy-sdk/blob/master/samples/nodejs/src/onboarding.md)
 
 
+[getVernym Walkthrough](https://github.com/pranay06/indy-sdk/blob/master/samples/nodejs/src/getVernym.md)
+
