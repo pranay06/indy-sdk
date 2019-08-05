@@ -1,6 +1,6 @@
 # Onboarding
 
-Here I have tried to encompass what is happening and what should (and need not) happen in the onboarding process (This is also a function in gettingStarted.js which part of sample nodejs code of indy-sdk).
+Here I have tried to encompass what is happening and what should (and need not) happen in the onboarding process (This is also a function in gettingStarted.js which is  part of sample nodejs code of indy-sdk).
 
 # Let's dive in
 
